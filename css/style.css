@@ -128,11 +128,193 @@ body {
 .featured-box__name {
   color: rgb(39, 39, 39);
   font-family: Lato;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
-  line-height: 35px;
+  line-height: 3.5rem;
   letter-spacing: 0%;
   text-align: center;
   text-decoration-line: underline;
   margin-top: 3.2rem;
+}
+
+.support {
+  margin-top: 12.8rem;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 8.6rem 17.5rem;
+}
+
+.support__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-item {
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support__text {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2.4rem;
+}
+
+.offer-section {
+  margin-top: 12.8rem;
+  border-radius: 0.8rem;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 10rem;
+  padding-left: 39.3rem;
+  padding-right: 42.9rem;
+}
+
+.offer {
+  width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-textbox {
+  width: 59.4rem;
+  text-align: center;
+}
+
+.offer-textbox__heading {
+  font-family: Lato;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 2.4rem;
+}
+
+.offer-textbox__heading span {
+  color: rgb(229, 84, 115);
+}
+
+.offer-textbox__details {
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.offer-image {
+  width: 50%;
+}
+
+.offer-image img {
+  width: 318px;
+  height: 420px;
+}
+
+.display {
+  width: 144rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 12.8rem;
+  margin-bottom: 12.8rem;
+}
+
+.display__description {
+  width: 59.4rem;
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.display__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe {
+  width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../assets/Rectangle 9.png");
+  min-height: 44.9rem;
+  text-align: center;
+}
+
+.display__heading {
+  color: rgb(39, 39, 39);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 3.2rem;
+  width: 38ren;
+}
+.display__heading {
+  margin-top: 12.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.subscribe--description {
+  margin-top: 0;
+}
+
+.subscribe__form {
+  display: flex;
+}
+
+.form__input {
+  border: none;
+  width: 70rem;
+  padding: 2.3rem;
+  padding-left: 2.3rem;
+  margin-right: 1rem;
+  border-radius: 0.8rem;
+  font-size: 2rem;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.form__input:focus {
+  outline: none;
+  font-size: 2rem;
+}
+
+.form__submit {
+  font-size: 2rem;
+  width: 15rem;
+  padding: 1.8rem 3rem;
+}
+
+.footer {
+  background-color: #000;
+  height: 45rem;
+  margin-top: 12.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__container {
+  width: 62.5rem;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__container h1 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.footer_highlight {
+  color: rgb(229, 84, 115);
+}
+
+.footer__container > h1 + p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 3.2rem;
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.6rem;
 }
