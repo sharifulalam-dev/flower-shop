@@ -66,3 +66,73 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
+/* featured flower section start here */
+.main {
+  width: 144rem;
+  margin: 0 auto;
+}
+
+.featured {
+  margin-top: 17.8rem;
+}
+
+.featured__ttitle {
+  text-align: center;
+  color: rgb(39, 39, 39);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2.4rem;
+}
+
+.featured__details {
+  width: 59.4rem;
+  margin: 0 auto;
+  margin-bottom: 4.8rem;
+}
+
+.featured-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-box__item {
+  width: 46.4rem;
+
+  text-align: center;
+}
+
+.feature-box__img {
+  border-radius: 30rem 30rem 0rem 0rem;
+  padding: 11rem 7.6rem 0;
+  height: 53.8rem;
+}
+
+.feature-box__img img {
+  width: 31rem;
+  height: 100%;
+}
+
+.feature-box__img--1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-box__img--2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-box__img--3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-box__name {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 3.2rem;
+}
